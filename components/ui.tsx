@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { LucideIcon, LucideProps } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import type { ReactNode } from "react";
 
@@ -133,7 +133,7 @@ export function ButtonLink({ href, children, variant = "primary" }: ButtonLinkPr
 type BadgeProps = {
   children: ReactNode;
   tone?: "default" | "success" | "gold" | "danger";
-  icon?: LucideIcon | ((props: LucideProps) => ReactNode);
+  icon?: LucideIcon;
 };
 
 export function Badge({ children, tone = "default", icon: Icon }: BadgeProps) {

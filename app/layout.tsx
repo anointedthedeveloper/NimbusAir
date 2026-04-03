@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Space_Grotesk } from "next/font/google";
 import { SiteShell } from "@/components/site-shell";
+import type { ReactNode } from "react";
 import "./globals.css";
 
 const heading = Space_Grotesk({
@@ -80,7 +81,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
