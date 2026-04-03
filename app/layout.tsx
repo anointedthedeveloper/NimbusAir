@@ -49,6 +49,9 @@ export const metadata: Metadata = {
   authors: [{ name: "anointedthedeveloper", url: "https://github.com/anointedthedeveloper" }],
   creator: "anointedthedeveloper",
   publisher: "anobyte",
+  verification: {
+    google: "aKnYWomdVfhxFP0_AX4H1COpM7C0o7GM-9Ad7FfI-nE",
+  },
   icons: {
     icon: "/icon.svg",
     apple: "/apple-icon.svg",
