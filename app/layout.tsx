@@ -49,6 +49,10 @@ export const metadata: Metadata = {
   authors: [{ name: "anointedthedeveloper", url: "https://github.com/anointedthedeveloper" }],
   creator: "anointedthedeveloper",
   publisher: "anobyte",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.svg",
+  },
   openGraph: {
     type: "website",
     url: "/",
