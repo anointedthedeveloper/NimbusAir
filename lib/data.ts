@@ -145,7 +145,7 @@ export const featuredRoutes: RouteFlight[] = [
     code: "NB 204",
     duration: "6h 20m",
     stops: "Non-stop",
-    price: "From ₦1.8M",
+    price: "From NGN 1.8M",
     tag: "Flagship route",
   },
   {
@@ -153,7 +153,7 @@ export const featuredRoutes: RouteFlight[] = [
     code: "NB 311",
     duration: "7h 05m",
     stops: "1 stop",
-    price: "From ₦2.1M",
+    price: "From NGN 2.1M",
     tag: "Business travel",
   },
   {
@@ -161,7 +161,7 @@ export const featuredRoutes: RouteFlight[] = [
     code: "NB 118",
     duration: "5h 40m",
     stops: "Non-stop",
-    price: "From ₦1.5M",
+    price: "From NGN 1.5M",
     tag: "Premium economy",
   },
 ];
@@ -210,7 +210,7 @@ export const adminFlights: AdminFlight[] = [
     flight: "NB 204",
     departure: "08:30",
     seats: "182 / 220",
-    revenue: "₦34.2M",
+    revenue: "NGN 34.2M",
     status: "Selling fast",
   },
   {
@@ -218,7 +218,7 @@ export const adminFlights: AdminFlight[] = [
     flight: "NB 311",
     departure: "13:45",
     seats: "133 / 190",
-    revenue: "₦28.1M",
+    revenue: "NGN 28.1M",
     status: "Schedule ready",
   },
   {
@@ -226,7 +226,7 @@ export const adminFlights: AdminFlight[] = [
     flight: "NB 118",
     departure: "22:10",
     seats: "160 / 180",
-    revenue: "₦21.8M",
+    revenue: "NGN 21.8M",
     status: "Reviewing load",
   },
 ];

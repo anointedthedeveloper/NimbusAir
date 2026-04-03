@@ -95,12 +95,12 @@ export default function BookingPage() {
             </div>
             <div className="summary-row">
               <span>Fare</span>
-              <strong>₦1.8M</strong>
+              <strong>NGN 1.8M</strong>
             </div>
             <div className="divider" />
             <div className="summary-row">
               <span>Total</span>
-              <strong>₦1.92M</strong>
+              <strong>NGN 1.92M</strong>
             </div>
 
             <div className="glass-card" style={{ padding: 18 }}>
